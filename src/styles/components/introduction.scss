@@ -1,0 +1,46 @@
+@use '../base/variables.scss';
+
+section {
+  font-family: variables.$primary-font;
+  font-weight: bold;
+
+  .name {
+    font-size: clamp(20px, 5vw, 46px);
+    color: white;
+    line-height: 1;
+  }
+
+  .role {
+    font-size: clamp(20px, 4vw, 32px);
+    color: #00ff7c;
+    line-height: 0.7;
+    margin-top: 15px;
+  }
+
+  .developer-img {
+    max-width: 520px;
+    margin: auto;
+    width: 90%;
+  }
+
+  .presentation {
+    font-weight: 400;
+    max-width: 600px;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .languages{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    img {
+      margin: auto 0;
+      width: 30px;
+    }
+  }
+
+}
+

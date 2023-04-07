@@ -1,0 +1,17 @@
+.navbar-container {
+  height: 100px;
+
+  .logos-container {
+    float: right;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    img {
+      margin: auto;
+      width: 30px;
+    }
+  }
+}

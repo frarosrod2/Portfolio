@@ -1,0 +1,9 @@
+@import './base/variables.scss';
+@import './components/app.scss';
+@import './components/home.scss';
+@import './components/navbar.scss';
+@import './components/introduction.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
