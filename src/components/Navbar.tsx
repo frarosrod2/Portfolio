@@ -23,7 +23,7 @@ export const Navbar = () => {
     <nav className="navbar-container py-6 px-8 md:px-12">
       <div className="logos-container px-4 md:px-8">
         {socialNetworks.map((network) => (
-          <Logo img={network.icon} />
+          <Logo key={network.name} img={network.icon} />
         ))}
       </div>
     </nav>

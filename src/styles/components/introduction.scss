@@ -12,7 +12,7 @@ section {
 
   .role {
     font-size: clamp(20px, 4vw, 32px);
-    color: #00ff7c;
+    color: $color-font-1;
     line-height: 0.7;
     margin-top: 15px;
   }
@@ -24,21 +24,31 @@ section {
   }
 
   .presentation {
-    font-weight: 400;
     max-width: 600px;
     margin-top: 40px;
-    color: white;
-    font-size: 18px;
   }
 
   .languages{
     display: flex;
-    gap: 3rem;
+    row-gap: 2rem;
+    column-gap: 3rem;
     flex-wrap: wrap;
 
     img {
       margin: auto 0;
       width: 30px;
+    }
+  }
+
+  .resume{
+    margin-top: 1rem;
+    .resume-button{
+      border: 1px solid #00ff7c;
+      padding: 0.75rem;
+      color: white;
+      border-radius: 10px;
+      font-weight: normal;
+      background-color: #00307942;
     }
   }
 

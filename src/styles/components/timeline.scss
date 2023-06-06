@@ -1,0 +1,29 @@
+.vertical-timeline-element-icon{
+    display: flex;
+    img{
+        clip-path: circle();
+    }
+}
+
+.vertical-timeline-element-content{
+    box-shadow: 3px 0 #132847
+}
+
+.vertical-timeline-element-date{
+    color: black;
+    margin: 0
+}
+
+@media only screen and (min-width: 1170px){
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  margin-left: -35px;
+}
+
+.vertical-timeline-element-date{
+    color: $color-font-1;
+    margin: 0 1rem
+}
+}
