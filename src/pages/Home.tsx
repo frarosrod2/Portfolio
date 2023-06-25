@@ -1,7 +1,9 @@
-import { Introduction } from '../components/Introduction'
-import { Navbar } from '../components/Navbar'
-import { About } from './About';
-import { TimelinePage } from './Timeline';
+import { Introduction } from "../components/Introduction";
+import { Navbar } from "../components/Navbar";
+import { projects } from "../utils/projects";
+import { About } from "./About";
+import { Projects } from "./Projects";
+import { TimelinePage } from "./Timeline";
 
 export const Home = () => {
   return (
@@ -10,6 +12,7 @@ export const Home = () => {
       <Introduction></Introduction>
       <About></About>
       <TimelinePage></TimelinePage>
+      <Projects projects={projects}></Projects>
     </>
-  )
-}
+  );
+};

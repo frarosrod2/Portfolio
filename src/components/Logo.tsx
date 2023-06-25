@@ -1,3 +1,3 @@
-export const Logo = ({ img }: { img: any }) => {
-  return <img src={img} />
+export const Logo = ({ img, link }: { img: string, link?: string }) => {
+  return (link ? <a href={link}><img src={img} /></a> : <img src={img} />)
 }

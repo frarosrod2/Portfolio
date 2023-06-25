@@ -1,25 +1,27 @@
-@import './base/variables.scss';
-@import './components/app.scss';
-@import './components/home.scss';
-@import './components/navbar.scss';
-@import './components/introduction.scss';
-@import './components/about.scss';
-@import './components/timeline.scss';
+@import "./base/variables.scss";
+@import "./components/app.scss";
+@import "./components/home.scss";
+@import "./components/navbar.scss";
+@import "./components/introduction.scss";
+@import "./components/about.scss";
+@import "./components/timeline.scss";
+@import "./components/projects.scss";
+@import "./components/thumbnail.scss";
+@import "./components/project-card.scss";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-.primary-text{
-    font-weight: 400;
-    color: white;
-    font-size: 18px;
+.primary-text {
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
 }
 
 .section-title {
-    font-size: clamp(20px, 4vw, 32px);
-    color: $color-font-1;
-    line-height: 0.7;
-    margin-top: 15px;
-  }
+  font-size: clamp(20px, 4vw, 32px);
+  color: $color-font-1;
+  line-height: 0.7;
+  margin-top: 15px;
+}

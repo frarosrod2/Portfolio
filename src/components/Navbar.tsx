@@ -9,7 +9,7 @@ export const Navbar = () => {
     },
     {
       name: 'Gmail',
-      link: 'test',
+      link: 'https://www.linkedin.com/in/francisco-javier-rosa-rodr%C3%ADguez-459119200/?originalSubdomain=es',
       icon: '/assets/icons/gmail.png',
     },
     {
@@ -22,8 +22,8 @@ export const Navbar = () => {
   return (
     <nav className="navbar-container py-6 px-8 md:px-12">
       <div className="logos-container px-4 md:px-8">
-        {socialNetworks.map((network) => (
-          <Logo key={network.name} img={network.icon} />
+        {socialNetworks.map(({name, link, icon}) => (
+          <Logo key={name} link={link} img={icon} />
         ))}
       </div>
     </nav>

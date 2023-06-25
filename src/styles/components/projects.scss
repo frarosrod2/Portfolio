@@ -1,0 +1,9 @@
+.projects-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects-container {
+    display: block;
+  }
+}

@@ -1,0 +1,50 @@
+.project-name {
+  font-size: clamp(16px, 4vw, 24px);
+  font-family: "Belanosima", sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: right;
+}
+
+.web-name {
+  font-family: "Belanosima", sans-serif;
+  font-weight: lighter;
+  color: #b9b9b9;
+  text-align: right;
+  font-size: clamp(14px, 3vw, 20px);
+}
+
+.overflow-section {
+  background-color: #1f586a;
+  width: 110%;
+  transform: translateX(-9%);
+  opacity: 1;
+  color: white;
+  font-weight: lighter;
+  z-index: 2;
+  padding: 25px;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 10px 30px -15px #000;
+  max-height: 60%;
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+  .overflow-section {
+    margin-top: 0;
+    width: 100% !important;
+    transform: translateX(0%) !important;
+    margin-top: 1rem !important;
+  }
+
+  .project-name {
+    text-align: left !important;
+    margin-top: 1.75rem;
+  }
+
+  .web-name {
+    text-align: left !important;
+  }
+}
