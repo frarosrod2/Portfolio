@@ -53,7 +53,7 @@ export const Introduction = () => {
           </div>
           <div className="languages mt-8 mb-8">
             {techSkills.map((skill) => (
-              <Logo key={skill.name} img={skill.icon} />
+              <Logo key={skill.name} img={skill.icon} alt={skill.name} />
             ))}
           </div>
           <div className="resume">
