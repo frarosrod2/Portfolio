@@ -1,13 +1,23 @@
+@use "../base/variables.scss";
+
 .navbar-container {
   height: 100px;
+  align-items: center;
+
+  .menu {
+    font-family: variables.$primary-font;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+  }
 
   .logos-container {
-    float: right;
     height: 100%;
-    margin: auto;
+    margin-left: auto;
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
+    align-content: center;
 
     img {
       margin: auto;

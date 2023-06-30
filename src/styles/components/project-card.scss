@@ -29,6 +29,14 @@
   max-height: 60%;
   margin-top: 2rem;
   text-align: justify;
+
+  span {
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Adjust this value to control the number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

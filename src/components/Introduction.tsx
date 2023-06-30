@@ -1,6 +1,5 @@
 import { Logo } from "./Logo";
 import resume from "../utils/resume.pdf";
-import { Link, Element } from "react-scroll";
 
 export const Introduction = () => {
   const techSkills = [
@@ -40,7 +39,7 @@ export const Introduction = () => {
   };
 
   return (
-    <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pt-12 md:pt-32 pb-40 md:pb-80">
+    <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pt-12 md:pt-32 pb-40">
       <div className="flex basis-full sm:basis-3/5 flex-wrap">
         <div className="basis-full md:basis-7/12 items-center">
           <div className="headings">
@@ -62,11 +61,8 @@ export const Introduction = () => {
               Download resume
             </button>
           </div>
-          <Link to="about" smooth={true} duration={500}>
-            Scroll to My Component
-          </Link>
         </div>
-        <div className="basis-full md:basis-5/12">
+        <div className="basis-full md:basis-5/12 md:mt-0 mt-16  ">
           <img
             src="assets/icons/developer.png"
             className="developer-img"

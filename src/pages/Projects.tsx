@@ -1,21 +1,21 @@
 import { ProjectCard } from "../components/projects/ProjectCard";
 import { Thumbnail } from "../components/projects/Thumbnail";
-import { projects } from "../utils/projects";
+import { Element } from "react-scroll";
 
 export const Projects = ({ projects }: { projects: any[] }) => {
   return (
-    <>
-      <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pb-64">
+    <Element name="projects">
+      <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pb-32">
         <h2 className="section-title">03. Projects</h2>
-        <div className="projects-container mt-32 w-auto md:w-9/12 lg:w-10/12 m-0 md:mx-auto lg:ml-16 flex-col gap-40">
+        <div className="flex mt-20 w-auto md:w-9/12 lg:w-10/12 m-0 md:mx-auto lg:ml-16 flex-col gap-40">
           {projects.map((project) => (
-            <div className="flex">
+            <div key={project.id} className="project">
               <Thumbnail />
               <ProjectCard project={project} />
             </div>
           ))}
         </div>
       </section>
-    </>
+    </Element>
   );
 };
