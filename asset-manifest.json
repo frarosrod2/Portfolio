@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.1f35e04f.css",
+    "main.js": "/react-gh-pages/static/js/main.4b10128d.js",
+    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.1b65bc01c2dfe7a10028.pdf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.1f35e04f.css.map": "/react-gh-pages/static/css/main.1f35e04f.css.map",
+    "main.4b10128d.js.map": "/react-gh-pages/static/js/main.4b10128d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f35e04f.css",
+    "static/js/main.4b10128d.js"
+  ]
+}
