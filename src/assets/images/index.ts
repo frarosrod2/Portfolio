@@ -1,0 +1,1 @@
+export { default as angularLogo } from './angular.png';

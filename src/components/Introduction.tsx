@@ -1,31 +1,38 @@
 import { Logo } from "./Logo";
 import resume from "../utils/resume.pdf";
+import js from "../assets/images/js.png";
+import typescript from "../assets/images/typescript.png";
+import angular from "../assets/images/angular.png";
+import react from "../assets/images/react.png";
+import css from "../assets/images/css-3.png";
+import node from "../assets/images/node-js.png";
+import developer from "../assets/images/developer.png";
 
 export const Introduction = () => {
   const techSkills = [
     {
       name: "JS",
-      icon: "/assets/icons/js.png",
+      icon: js,
     },
     {
       name: "TS",
-      icon: "/assets/icons/typescript.png",
+      icon: typescript,
     },
     {
       name: "Angular",
-      icon: "/assets/icons/angular.png",
+      icon: angular,
     },
     {
       name: "React",
-      icon: "/assets/icons/react.png",
+      icon: react,
     },
     {
       name: "CSS",
-      icon: "/assets/icons/css-3.png",
+      icon: css,
     },
     {
       name: "Node",
-      icon: "/assets/icons/node-js.png",
+      icon: node,
     },
   ];
 
@@ -63,11 +70,7 @@ export const Introduction = () => {
           </div>
         </div>
         <div className="basis-full md:basis-5/12 md:mt-0 mt-16  ">
-          <img
-            src="assets/icons/developer.png"
-            className="developer-img"
-            alt="developer-img"
-          />
+          <img src={developer} className="developer-img" alt="developer-img" />
         </div>
       </div>
     </section>

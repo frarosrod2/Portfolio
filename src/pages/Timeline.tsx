@@ -4,6 +4,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import berger from "../assets/images/berger.png";
+import viewnext from "../assets/images/view.png";
+import digital55 from "../assets/images/digital55.png";
 
 export const TimelinePage = () => {
   return (
@@ -17,7 +20,7 @@ export const TimelinePage = () => {
               contentArrowStyle={{ borderRight: "7px solid  #fff" }}
               date="Febraury 2021 - May 2021"
               iconStyle={{ background: "#fff" }}
-              icon={<img src="assets/icons/berger.webp" />}
+              icon={<img alt="berger" src={berger} />}
             >
               <h3 className="vertical-timeline-element-title">
                 Trainee Developer -
@@ -31,7 +34,7 @@ export const TimelinePage = () => {
               contentArrowStyle={{ borderRight: "7px solid  #fff" }}
               date="September 2021 - January 2023"
               iconStyle={{ background: "#fff" }}
-              icon={<img src="assets/icons/view.png" />}
+              icon={<img alt="viewnext" src={viewnext} />}
             >
               <h3 className="vertical-timeline-element-title">
                 FullStack Developer -
@@ -55,7 +58,7 @@ export const TimelinePage = () => {
               contentArrowStyle={{ borderRight: "7px solid  #fff" }}
               date="January 2023 - current"
               iconStyle={{ background: "#fff" }}
-              icon={<img src="assets/icons/digital55.png" />}
+              icon={<img alt="digital55" src={digital55} />}
             >
               <h3 className="vertical-timeline-element-title">
                 FullStack Developer -
