@@ -8,7 +8,7 @@ export const Logo = ({
   alt?: string;
 }) => {
   return link ? (
-    <a href={link}>
+    <a href={link} target="_blank" rel="noopener noreferrer">
       <img src={img} alt={alt} />
     </a>
   ) : (
