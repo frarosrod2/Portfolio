@@ -26,13 +26,13 @@
   border-radius: 4px;
   position: relative;
   box-shadow: 0 10px 30px -15px #000;
-  max-height: 60%;
+  max-height: 70%;
   margin-top: 2rem;
   text-align: justify;
 
   span {
     display: -webkit-box;
-    -webkit-line-clamp: 6; /* Adjust this value to control the number of lines */
+    // -webkit-line-clamp: 6; /* Adjust this value to control the number of lines */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
