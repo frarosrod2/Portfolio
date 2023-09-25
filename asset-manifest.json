@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1f35e04f.css",
-    "main.js": "/Portfolio/static/js/main.bdc9d2c3.js",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.1b65bc01c2dfe7a10028.pdf",
-    "index.html": "/Portfolio/index.html",
-    "main.1f35e04f.css.map": "/Portfolio/static/css/main.1f35e04f.css.map",
-    "main.bdc9d2c3.js.map": "/Portfolio/static/js/main.bdc9d2c3.js.map"
+    "main.css": "./static/css/main.33daee7f.css",
+    "main.js": "./static/js/main.7b80fa2f.js",
+    "static/media/view.png": "./static/media/view.8461c99039022ea5c551.png",
+    "static/media/Naturgy.png": "./static/media/Naturgy.40f77248eb46c7ebc3a7.png",
+    "static/media/resume.pdf": "./static/media/resume.1b65bc01c2dfe7a10028.pdf",
+    "static/media/developer.png": "./static/media/developer.82e6545d700c3b3198ac.png",
+    "static/media/digital55.png": "./static/media/digital55.f30d2cf5178ded51dcae.png",
+    "static/media/node-js.png": "./static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/github.png": "./static/media/github.a5527b5c02e754fc4a6d.png",
+    "static/media/react.png": "./static/media/react.b99185e4acfefdbd99b8.png",
+    "static/media/angular.png": "./static/media/angular.23dc1781fcfba5ce77dd.png",
+    "static/media/css-3.png": "./static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/typescript.png": "./static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "./index.html",
+    "main.33daee7f.css.map": "./static/css/main.33daee7f.css.map",
+    "main.7b80fa2f.js.map": "./static/js/main.7b80fa2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f35e04f.css",
-    "static/js/main.bdc9d2c3.js"
+    "static/css/main.33daee7f.css",
+    "static/js/main.7b80fa2f.js"
   ]
 }
