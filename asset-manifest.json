@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.33daee7f.css",
-    "main.js": "./static/js/main.7b80fa2f.js",
+    "main.css": "./static/css/main.9bb7c064.css",
+    "main.js": "./static/js/main.f80a61ee.js",
     "static/media/view.png": "./static/media/view.8461c99039022ea5c551.png",
     "static/media/Naturgy.png": "./static/media/Naturgy.40f77248eb46c7ebc3a7.png",
     "static/media/resume.pdf": "./static/media/resume.1b65bc01c2dfe7a10028.pdf",
@@ -15,11 +15,11 @@
     "static/media/typescript.png": "./static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "./index.html",
-    "main.33daee7f.css.map": "./static/css/main.33daee7f.css.map",
-    "main.7b80fa2f.js.map": "./static/js/main.7b80fa2f.js.map"
+    "main.9bb7c064.css.map": "./static/css/main.9bb7c064.css.map",
+    "main.f80a61ee.js.map": "./static/js/main.f80a61ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.33daee7f.css",
-    "static/js/main.7b80fa2f.js"
+    "static/css/main.9bb7c064.css",
+    "static/js/main.f80a61ee.js"
   ]
 }
