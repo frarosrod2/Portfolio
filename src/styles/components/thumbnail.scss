@@ -1,5 +1,4 @@
 .thumbnail-container {
-  opacity: 0.7;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
@@ -21,6 +20,11 @@
       visibility: hidden;
       transform: translateY(100%);
     }
+  }
+
+  .disabled {
+    pointer-events: none;
+    cursor: auto !important;
   }
 
   &:hover {

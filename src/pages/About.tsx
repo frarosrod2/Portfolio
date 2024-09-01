@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 export const About = () => {
   return (
     <Element name="about">
-      <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pb-32">
+      <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pb-24">
         <h2 className="section-title">01. About</h2>
         <div className="mt-10 max-w-2xl text-justify primary-text text-lg">
           Hi, my name is Francisco Javier Rosa. I have a Software Engineering

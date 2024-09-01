@@ -7,11 +7,12 @@ import "react-vertical-timeline-component/style.min.css";
 import berger from "../assets/images/berger.png";
 import viewnext from "../assets/images/view.png";
 import digital55 from "../assets/images/digital55.png";
+import minsait from "../assets/images/minsait-logo.png";
 
 export const TimelinePage = () => {
   return (
     <Element name="timeline">
-      <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pb-64">
+      <section className="lg:w-10/12 md:w-11/12 sm:w-9/12 w-10/12 m-auto pb-32">
         <h2 className="section-title">02. Timeline</h2>
         <div className="mt-12">
           <VerticalTimeline>
@@ -56,7 +57,7 @@ export const TimelinePage = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-              date="January 2023 - current"
+              date="January 2023 - July 2024"
               iconStyle={{ background: "#fff" }}
               icon={<img alt="digital55" src={digital55} />}
             >
@@ -68,7 +69,35 @@ export const TimelinePage = () => {
                 - Development of several projects using Angular and Express, one
                 of them a large hospital management tool.
               </p>
-              <p>- In-depth use of libraries such as TypeORM, RxJs and ngRx.</p>
+              <p>
+                - In-depth use of libraries such as TypeORM, RxJs, ngRx and
+                Socket.io.
+              </p>
+              <p>
+                - Management and creation of SQL tables using Microsoft SQL
+                Server.
+              </p>
+              <p>
+                - Orientation of new employees in the use of the web. At times,
+                I have also been in charge of the management of branches and PRs
+                in Azure.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+              date="July 2024 - current"
+              iconStyle={{ background: "#fff" }}
+              icon={<img alt="minsait" src={minsait} />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Angular Developer -
+                <span className="text-gray-500"> Minsait</span>
+              </h3>
+              <p>
+                - Development of libraries and projects related to the banking
+                sector using Angular, RxJS and unit testing.
+              </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

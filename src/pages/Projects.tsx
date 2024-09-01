@@ -10,7 +10,12 @@ export const Projects = ({ projects }: { projects: any[] }) => {
         <div className="flex mt-20 w-auto md:w-9/12 lg:w-10/12 m-0 md:mx-auto lg:ml-16 flex-col gap-40">
           {projects.map((project) => (
             <div key={project.id} className="project">
-              <Thumbnail />
+              <Thumbnail
+                image={project.img}
+                url={project.url}
+                disabled={project.disabled}
+                name={project.name}
+              />
               <ProjectCard project={project} />
             </div>
           ))}
